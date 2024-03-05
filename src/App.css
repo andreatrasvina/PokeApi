@@ -1,0 +1,44 @@
+body{
+  background-color: pink;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.pokemon-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 5fr)); 
+  gap: 20px;
+}
+
+.pokemon-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-5px);
+}
+
+.pokemon-card img {
+  width: 100px; /* Reducir el tamaño de la imagen para ajustar más Pokémon por fila */
+  height: 100px; /* Reducir el tamaño de la imagen para ajustar más Pokémon por fila */
+  margin-bottom: 10px;
+}
+
+.pokemon-card h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
