@@ -1,0 +1,13 @@
+
+.no-results-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; 
+  width: 80vh; 
+  font-size: 36px;
+  font-weight: bold; 
+  color: rgba(138, 90, 119, 0.7); 
+  white-space: nowrap;
+}
+  
